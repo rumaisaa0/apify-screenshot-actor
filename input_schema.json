@@ -5,7 +5,7 @@
   "properties": {
     "urls": {
       "type": "array",
-      "description": "List of Google Sheet URLs to capture",
+      "description": "List of Google Sheet or web page URLs to screenshot (top 4 rows only)",
       "items": {
         "type": "string",
         "format": "uri"
