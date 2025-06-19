@@ -1,0 +1,14 @@
+{
+  "name": "top4rows-screenshot-actor",
+  "version": "1.0.0",
+  "description": "Apify actor to take high-resolution screenshot of top 4 rows of a spreadsheet.",
+  "main": "main.js",
+  "scripts": {
+    "start": "node src/main.js"
+  },
+  "dependencies": {
+    "apify": "^3.0.0",
+    "playwright": "^1.44.0"
+  },
+  "type": "module"
+}

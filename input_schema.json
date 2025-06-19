@@ -1,0 +1,16 @@
+{
+  "title": "Input for Top 4 Rows Screenshot Actor",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "urls": {
+      "type": "array",
+      "description": "List of Google Sheet URLs to capture",
+      "items": {
+        "type": "string",
+        "format": "uri"
+      }
+    }
+  },
+  "required": ["urls"]
+}
